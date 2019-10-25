@@ -1,7 +1,7 @@
 {
   "name": "search-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a tutorial from ITNEXT Production ready Node.js REST API Setup using Typescript PostgreSQL and Redis",
   "main": "index.js",
   "scripts": {
     "dev": "tsc-watch --onSuccess \"node ./dist/server.js\""
@@ -19,5 +19,14 @@
     "express": "^5.0.0-alpha.7",
     "tsc-watch": "^4.0.0",
     "typescript": "^3.6.4"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmshanahan/express-typescript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jmshanahan/express-typescript/issues"
+  },
+  "homepage": "https://github.com/jmshanahan/express-typescript#readme"
 }
