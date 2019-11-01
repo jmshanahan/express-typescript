@@ -1,6 +1,5 @@
 import { Request, Response, NextFunction } from "express";
 import { HTTP400Error } from "../utils/httpErrors";
-import { RequestError } from "request-promise/errors";
 
 export const checkSearchParams = (
   req: Request,
